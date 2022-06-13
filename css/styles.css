@@ -31,9 +31,9 @@ LAYOUT
 ============= */
 body{
     background: linear-gradient(157deg,
-    #EDE7DC,
-    #CCAFA5, 
-    #BDC3CB, 
+    #ffffff,
+    #eeded8, 
+    #cbd1da, 
     #596779) 
     no-repeat;
     min-height: 100vh;
