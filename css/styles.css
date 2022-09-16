@@ -1,8 +1,9 @@
 * {
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
 }
@@ -10,18 +11,18 @@ html, body{
 /* ==============
 TYPOGRAPHY
 ============== */
-body{
+body {
     font-family: 'Lato', sans-serif;
     font-size: 1.25rem;
 }
 
-h1{
+h1 {
     margin: 0;
     font-family: 'Comfortaa', sans-serif;
     font-size: 3.5rem;
 }
 
-header p{
+header p {
     font-size: 1.8rem;
     font-weight: 700;
     margin: 1.5rem 0 0;
@@ -30,77 +31,75 @@ header p{
 /* =============
 LAYOUT
 ============= */
-/* body{
-} */
-.container-body{
+.container-body {
     position: relative;
-    right:0;
+    right: 0;
     left: 0;
     background-color: #31363c;
     background: url(../images/johannes-plenio-unsplash.jpg);
     background-blend-mode: overlay;
-    background-size:cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.container{
-    width:90%;
+.container {
+    width: 90%;
     margin: 0 auto;
 }
 
-header{
+header {
     color: #000000;
-    padding:1em 0;
+    padding: 1em 0;
     text-align: center;
 }
 
-main{
+main {
     margin-bottom: 4em;
+    min-height: 100vh;
 }
 
-footer{
+footer {
     color: rgba(255, 255, 255, 0.2);
     text-align: center;
     padding: 40px 0 20px;
     background-color: #31363c;
-    margin-top:auto;
+    margin-top: auto;
 }
 
 
-.container-output{
-    width:90%;
+.container-output {
+    width: 90%;
     margin: 20px auto 50px;
 }
 
-@media (min-width: 650px){
-    header{
+@media (min-width: 650px) {
+    header {
         margin-top: 0;
-        padding:2em 0;
+        padding: 2em 0;
     }
 
-    .container{
+    .container {
         max-width: 700px;
     }
 
 }
 
-.container-search{
+.container-search {
     padding: 40px 15px 40px 35px;
     background-color: rgba(0, 128, 128, 0.1);
     border-radius: 10px;
-    box-shadow: 10px 5px  7px rgba(14, 13, 13, 0.9);
+    box-shadow: 10px 5px 7px rgba(14, 13, 13, 0.9);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.search-bar{
+.search-bar {
     margin: 0 auto;
     width: 95%;
     display: flex;
@@ -108,7 +107,7 @@ footer{
     align-items: center;
 }
 
-.search-input{
+.search-input {
     width: 100%;
     font-size: 1.2rem;
     line-height: 1.4;
@@ -119,14 +118,14 @@ footer{
     border-bottom-left-radius: 8px;
 }
 
-.search-btn{
+.search-btn {
     border: none;
-    padding:1.4em;
+    padding: 1.4em;
     border-radius: 50%;
     background-color: #ffe600;
     position: relative;
     /* top:0; */
-    left:-20px;
+    left: -20px;
     transform: scale(1);
     transition: transform 500ms;
 }
@@ -137,35 +136,35 @@ footer{
     background-color: #f8e114;
 }
 
-.search-btn img{
+.search-btn img {
     width: 20px;
     margin: 0 auto;
 }
 
-.search-output{
+.search-output {
     padding: 0;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 10px;
     text-align: center;
-} 
+}
 
-.search-output li{
+.search-output li {
     list-style: none;
     margin: 0;
     padding: 0.5em 0;
 }
 
-.search-output li:nth-child(1){
+.search-output li:nth-child(1) {
     padding-top: 25px;
 }
 
-.search-output li:last-child{
+.search-output li:last-child {
     padding-bottom: 15px;
 }
 
 
-.small-text{
+.small-text {
     font-size: 1rem;
     margin: 0;
     letter-spacing: 1px;
